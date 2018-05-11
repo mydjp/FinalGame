@@ -87,6 +87,7 @@ public class Turret : MonoBehaviour
 			bullet.Seek(target);
 	}
 
+	//  so you can see  the turrents range
 	private void OnDrawGizmosSelected()
 
 	{

@@ -49,9 +49,5 @@ public class NavWander : MonoBehaviour {
 
 		 return navHit.position;
 	}
-	// Chicken Interactions
-	// void OnTriggerStay(Collider other)
-	// {
-	// 	if(other.)
-	// }
+	
 }

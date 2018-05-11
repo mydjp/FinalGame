@@ -27,8 +27,8 @@ public class PlayerHealth : MonoBehaviour
     currentHealth -= damage;
     if(currentHealth <=0)
         {
-        currentHealth=0;
-        print("you died");
+            currentHealth=0;
+            print("you died");
         }
      }
     
