@@ -8,26 +8,29 @@ public class ScoreManager : MonoBehaviour
 {
     // add score
     public static int ScoreValue = 0;
-    Text Scoretext;
-    
-    
-   
-    
-    
+    public Text Scoretext;
 
-    
-   
+
+
+
+
+
+
+
 
 
     void Update()
     {
-      
-        
-        Scoretext.text = "Score: " + ScoreValue;
-      
 
-       
-        
+
+        Scoretext.text = "Score: " + ScoreValue;
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+
+
+        }
     }
 }
 
